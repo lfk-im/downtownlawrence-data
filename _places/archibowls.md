@@ -1,7 +1,8 @@
 ---
 active: true
 address: 125 East 10th Street
-name: Archibowls 
+facebook_url: https://www.facebook.com/sincerelyspicy/
+name: Archibowls
 neighborhood: Downtown
 notes: Take out only
 sitemap: false
