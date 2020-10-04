@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Carryout cocktails
 sitemap: false
 slug: the-sandbar
-url: https://www.thesandbar.com
+url: www.thesandbar.com
 ---
