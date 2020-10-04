@@ -37,9 +37,7 @@ jobs:
           pip install -U pip
           python -m pip install -r requirements.txt
 
-      - name: Sync Places (Google Sheets) locally
-        run: |
-          python sync.py sync-downtownlawrence
+      - run: python sync.py sync-downtownlawrence
 
       - name: create pull request
         uses: gr2m/create-or-update-pull-request-action@v1.x
