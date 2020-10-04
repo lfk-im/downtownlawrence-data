@@ -1,11 +1,10 @@
 ---
-active: false
+active: true
 address: 1007 Massachusetts
-facebook_url: null
-name: Encore Cafe
+name: Encore Café
 neighborhood: Downtown
 notes: Open for curbside pickup & delivery
 sitemap: false
 slug: encore-cafe
-url: https://encorecafeks.com/home.php
+url: http://encorecafeks.com/index.php
 ---
