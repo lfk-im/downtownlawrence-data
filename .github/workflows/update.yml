@@ -49,4 +49,4 @@ jobs:
           # branch: "${{ github.ref }}"
           branch: "places-update"
           author: Automated Publisher <actions@users.noreply.github.com>
-          commit-message: "WIP: Business changed - please review"
+          commit-message: ":robot: :pencil: Business changed - please review"
