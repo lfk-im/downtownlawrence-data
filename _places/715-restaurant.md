@@ -1,7 +1,6 @@
 ---
 active: true
 address: 715 Massachusetts
-facebook_url: null
 name: 715 Restaurant
 neighborhood: Downtown
 notes: Cocktails to go, Gift Cards available

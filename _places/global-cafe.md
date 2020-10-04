@@ -1,7 +1,6 @@
 ---
 active: true
 address: 820 Massachusetts
-facebook_url: null
 name: Global Cafe
 neighborhood: Downtown
 notes: Carry out & Delivery available, Family meals to go, Thursday-Sunday 8:00am-1:30pm
