@@ -243,10 +243,15 @@ def sync_downtownlawrence():
                 url = row.find("a")
                 url = url.get("href") if url else None
                 if url:
-                    if url.startswith("http://"):
-                        url = url.replace("http://", "https://")
+                    if url.startswith("http"):
+                        if url.startswith("http://"):
+                            url = url.replace("http://", "https://")
+                    else:
+                        url = f"https://{url}"
+
                     if "facebook.com" in url:
                         url = None
+
                     click.echo(url)
 
                 filename = Path("_places").joinpath(f"{place_slug}.md")
