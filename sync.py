@@ -1,6 +1,5 @@
 import click
 import frontmatter
-import inflection
 import os
 import re
 import requests
@@ -10,7 +9,6 @@ import yaml
 from bs4 import BeautifulSoup
 from click_default_group import DefaultGroup
 from pathlib import Path
-from sheetfu import SpreadsheetApp, Table
 from slugify import slugify
 from typesystem.fields import Boolean
 
