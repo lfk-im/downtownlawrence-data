@@ -1,0 +1,53 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+  # every 15 minutes - https://crontab.guru/#*/15_*_*_*_*
+  - cron:  '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup python
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.7"
+          architecture: "x64"
+
+      - name: Cache pip
+        id: cache-pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install our project requirements
+        # if: steps.cache-pip.outputs.cache-hit != 'true'
+        run: |
+          pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Sync Places (Google Sheets) locally
+        run: |
+          python sync.py sync-downtownlawrence
+
+      - name: create pull request
+        uses: gr2m/create-or-update-pull-request-action@v1.x
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        with:
+          title: ":robot: Downtown Business Changed"
+          body: "I found new changes on https://www.downtownlawrence.com/explore-downtown-lawrence\n\nI can't tell if the changes are fixes, features or breaking, you'll have to figure that out on yourself and update https://github.com/lfk-im/lfk.im\n"
+          branch: "${{ github.ref }}"
+          author: Automated Publisher <actions@users.noreply.github.com>
+          commit-message: "WIP: Business changed - please review"
