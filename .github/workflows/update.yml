@@ -46,6 +46,7 @@ jobs:
         with:
           title: ":robot: Downtown Business Changed"
           body: "I found new changes on https://www.downtownlawrence.com/explore-downtown-lawrence\n\nI can't tell if the changes are fixes, features or breaking, you'll have to figure that out on yourself and update https://github.com/lfk-im/lfk.im\n"
-          branch: "${{ github.ref }}"
+          # branch: "${{ github.ref }}"
+          branch: "places-update"
           author: Automated Publisher <actions@users.noreply.github.com>
           commit-message: "WIP: Business changed - please review"
