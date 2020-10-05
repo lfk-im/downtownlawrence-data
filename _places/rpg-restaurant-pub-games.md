@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: RPG Restaurant, Pub & Games
 neighborhood: Downtown
 sitemap: false

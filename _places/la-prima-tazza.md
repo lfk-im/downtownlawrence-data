@@ -1,7 +1,7 @@
 ---
 active: true
 address: 638 Massachusetts
-facebook_url: null
+facebook_url: ''
 name: La Prima Tazza
 neighborhood: Downtown
 notes: Open 7:30am-5pm Monday-Sunday, No cash accepted

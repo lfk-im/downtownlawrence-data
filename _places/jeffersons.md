@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Order online or call for takeout and delivery, 7 days a week
 sitemap: false
 slug: jeffersons
-url: null
+url: ''
 ---

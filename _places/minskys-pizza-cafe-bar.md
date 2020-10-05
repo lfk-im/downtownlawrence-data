@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Minsky’s Pizza Café & Bar
 neighborhood: Downtown
 sitemap: false

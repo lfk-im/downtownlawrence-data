@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Delivery and pickup available
 sitemap: false
 slug: pita-pit
-url: null
+url: ''
 ---

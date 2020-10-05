@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Rudy’s Pizzeria
 neighborhood: Downtown
 sitemap: false

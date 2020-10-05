@@ -1,7 +1,7 @@
 ---
 active: false
 address: 1007 Massachusetts
-facebook_url: null
+facebook_url: ''
 name: Encore Cafe
 neighborhood: Downtown
 notes: Open for curbside pickup & delivery

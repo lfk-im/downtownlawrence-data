@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Closed
 sitemap: false
 slug: leroys-tavern
-url: null
+url: ''
 ---

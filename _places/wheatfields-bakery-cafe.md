@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Wheatfields Bakery & Cafe
 neighborhood: Downtown
 sitemap: false

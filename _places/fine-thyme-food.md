@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Fine Thyme Food
 neighborhood: Downtown
 sitemap: false

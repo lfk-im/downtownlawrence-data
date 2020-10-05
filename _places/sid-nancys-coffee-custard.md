@@ -5,5 +5,5 @@ name: Sid & Nancy’s Coffee & Custard
 neighborhood: Downtown
 sitemap: false
 slug: sid-nancys-coffee-custard
-url: null
+url: ''
 ---

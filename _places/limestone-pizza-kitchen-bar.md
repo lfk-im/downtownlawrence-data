@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Limestone Pizza Kitchen+Bar
 neighborhood: Downtown
 sitemap: false

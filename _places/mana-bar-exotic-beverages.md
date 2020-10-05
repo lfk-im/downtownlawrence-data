@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Mana Bar:  Exotic Beverages
 neighborhood: Downtown
 sitemap: false
