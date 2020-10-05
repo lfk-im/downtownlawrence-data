@@ -9,11 +9,14 @@ from pathlib import Path
 from slugify import slugify
 
 
+URL = "https://www.downtownlawrence.com/explore-downtown-lawrence/dining/"
+
+
 app = typer.Typer()
 
 
 @app.command()
-def sync_downtownlawrence(mark_inactive: bool = False):
+def sync_downtownlawrence(mark_inactive: bool = False, use_cache: bool = False):
     if not Path("_places").exists():
         Path("_places").mkdir()
 
@@ -25,13 +28,21 @@ def sync_downtownlawrence(mark_inactive: bool = False):
 
             filename.write_text(frontmatter.dumps(post))
 
-    response = requests.get(
-        "https://www.downtownlawrence.com/explore-downtown-lawrence/dining/"
-    )
+    if use_cache:
+        cache_filename = f"{slugify(URL)}.html"
+        if Path(cache_filename).exists():
+            text = Path(cache_filename).read_text()
+        else:
+            response = requests.get(URL)
+            response.raise_for_status()
+            text = response.text
+            text = Path(cache_filename).write_text(text)
+    else:
+        response = requests.get(URL)
+        response.raise_for_status()
+        text = response.text
 
-    response.raise_for_status()
-
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(text, "html.parser")
 
     table = soup.find("div", "entry-content")
     rows = table.find_all("p")
