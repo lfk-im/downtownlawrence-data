@@ -23,9 +23,7 @@ def sync_downtownlawrence(mark_inactive: bool = False):
             post = frontmatter.loads(filename.read_text())
             post["active"] = False
 
-            filename.write_text(
-                frontmatter.dumps(post)
-            )
+            filename.write_text(frontmatter.dumps(post))
 
     response = requests.get(
         "https://www.downtownlawrence.com/explore-downtown-lawrence/dining/"
@@ -53,7 +51,10 @@ def sync_downtownlawrence(mark_inactive: bool = False):
                 typer.secho(f"{name} [{place_slug}]", fg="green")
 
                 try:
-                    facebook_url = [item.get('href') for item in row.find_all(href=re.compile("facebook"))][0]
+                    facebook_url = [
+                        item.get("href")
+                        for item in row.find_all(href=re.compile("facebook"))
+                    ][0]
                     print(facebook_url)
                 except IndexError:
                     facebook_url = ""
