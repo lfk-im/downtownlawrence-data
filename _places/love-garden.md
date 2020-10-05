@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 822 Massachusetts
 name: Love Garden
 neighborhood: Downtown

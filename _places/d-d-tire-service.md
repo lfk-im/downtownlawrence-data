@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1000 Vermont
 name: D&D Tire & Service
 neighborhood: Downtown

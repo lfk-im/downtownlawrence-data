@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1 Riverfront Plaza
 name: Springhill Suites
 neighborhood: Downtown

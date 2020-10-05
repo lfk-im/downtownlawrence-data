@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 825 Massachusetts
 name: KB & Co.
 neighborhood: Downtown

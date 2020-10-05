@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 936 Massachusetts
 name: The Toy Store 
 neighborhood: Downtown

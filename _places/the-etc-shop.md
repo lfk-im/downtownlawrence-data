@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 928 Massachusetts
 name: The Etc. Shop
 neighborhood: Downtown

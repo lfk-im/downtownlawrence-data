@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: '715 East 7th #201'
 name: Bodhi Tree Holistic Healing
 neighborhood: Downtown

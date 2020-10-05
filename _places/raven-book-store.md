@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 6th East 7th Street
 name: Raven Book Store 
 neighborhood: Downtown

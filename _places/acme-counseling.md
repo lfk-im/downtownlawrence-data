@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 729 1/2 Massachusetts
 name: Acme Counseling
 neighborhood: Downtown

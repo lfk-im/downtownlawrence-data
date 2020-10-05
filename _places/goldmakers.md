@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 725 Massachusetts
 name: Goldmakers
 neighborhood: Downtown

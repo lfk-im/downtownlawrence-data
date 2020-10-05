@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 609 Massachusetts
 name: Waxman Candles
 neighborhood: Downtown

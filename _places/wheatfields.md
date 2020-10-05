@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 904 Vermont
 name: Wheatfields
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 636 Massachusetts
 name: Free State Brewery
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 824 Massachusetts
 name: Downtown Barbershop
 neighborhood: Downtown

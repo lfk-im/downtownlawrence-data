@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1347 Massachusetts
 name: Mass Street Music
 neighborhood: Downtown

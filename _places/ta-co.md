@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 801 Massachusetts
 name: Ta Co. 
 neighborhood: Downtown

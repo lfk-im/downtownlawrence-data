@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 647 Massachusetts
 name: Winfield House
 neighborhood: Downtown

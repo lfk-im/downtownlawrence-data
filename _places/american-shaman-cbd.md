@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1901 Massachusetts
 name: American Shaman CBD
 neighborhood: Downtown

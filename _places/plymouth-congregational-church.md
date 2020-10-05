@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 925 Vermont
 name: Plymouth Congregational Church
 neighborhood: Downtown

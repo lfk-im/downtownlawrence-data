@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 929 Massachusetts
 name: Brits
 neighborhood: Downtown

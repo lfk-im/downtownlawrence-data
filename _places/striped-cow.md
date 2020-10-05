@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 805 Massachusetts
 name: Striped Cow
 neighborhood: Downtown

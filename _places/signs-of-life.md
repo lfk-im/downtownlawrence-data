@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 722 Massachusetts
 name: Signs of Life
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1101 Massachusetts
 name: Sylas & Maddys
 neighborhood: Downtown

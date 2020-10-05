@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 933 Massachusetts
 name: Essential Goods
 neighborhood: Downtown

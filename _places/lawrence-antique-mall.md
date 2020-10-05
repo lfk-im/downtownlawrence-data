@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 830 Massachusetts
 name: Lawrence Antique Mall
 neighborhood: Downtown

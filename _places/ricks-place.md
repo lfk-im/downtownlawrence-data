@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 846 Illinois
 name: Rick’s Place
 neighborhood: Downtown

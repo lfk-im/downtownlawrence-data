@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 11 West 9th
 name: Summit’s Steps
 neighborhood: Downtown

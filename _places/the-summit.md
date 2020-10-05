@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 901 New Hampshire
 name: The Summit
 neighborhood: Downtown

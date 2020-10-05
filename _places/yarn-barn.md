@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 930 Massachusetts
 name: Yarn Barn
 neighborhood: Downtown

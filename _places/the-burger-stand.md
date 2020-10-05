@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 803 Massachusetts
 name: The Burger Stand
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 926 Massachusetts
 name: Stitch On
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1031 New Hampshire
 name: Maceli’s 
 neighborhood: Downtown

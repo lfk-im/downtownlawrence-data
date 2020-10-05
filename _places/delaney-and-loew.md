@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 732 Massachusetts
 name: Delaney and Loew
 neighborhood: Downtown

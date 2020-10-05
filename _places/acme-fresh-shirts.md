@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 847 Massachusetts
 name: Acme Fresh Shirts
 neighborhood: Downtown

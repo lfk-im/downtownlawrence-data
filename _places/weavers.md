@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 901 Massachusetts
 name: Weavers
 neighborhood: Downtown

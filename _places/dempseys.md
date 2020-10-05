@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 623 Vermont
 name: Dempsey’s
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 826 Massachusetts
 name: Jock’s Nitch
 neighborhood: Downtown

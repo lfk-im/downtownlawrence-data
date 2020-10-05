@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 738 Massachusetts
 name: The Halodeck
 neighborhood: Downtown

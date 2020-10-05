@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: '1009 New Hampshire #C'
 name: Mane Haus
 neighborhood: Downtown

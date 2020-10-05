@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 844 Massachusetts
 name: Game Nut
 neighborhood: Downtown

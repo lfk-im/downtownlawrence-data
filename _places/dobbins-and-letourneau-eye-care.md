@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 831 Vermont
 name: Dobbins and LeTourneau Eye Care
 neighborhood: Downtown

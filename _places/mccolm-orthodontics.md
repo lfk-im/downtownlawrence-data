@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 12 West 8th
 name: McColm Orthodontics
 neighborhood: Downtown

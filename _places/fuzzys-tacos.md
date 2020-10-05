@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1115 Massachusetts
 name: Fuzzy’s Tacos
 neighborhood: Downtown

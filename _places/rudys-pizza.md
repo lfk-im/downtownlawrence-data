@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 704 Massachusetts
 name: Rudy’s Pizza
 neighborhood: Downtown

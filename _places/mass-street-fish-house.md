@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 719 Massachusetts
 name: Mass Street Fish House
 neighborhood: Downtown

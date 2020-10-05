@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1027 Massachusetts
 name: Lucky Dog
 neighborhood: Downtown

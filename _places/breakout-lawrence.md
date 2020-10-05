@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 727 Massachusetts
 name: Breakout Lawrence
 neighborhood: Downtown

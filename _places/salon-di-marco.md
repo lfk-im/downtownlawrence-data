@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 733 Massachusetts
 name: Salon di Marco
 neighborhood: Downtown

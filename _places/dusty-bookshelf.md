@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 708 Massachusetts
 name: Dusty Bookshelf
 neighborhood: Downtown

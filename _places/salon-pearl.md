@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 123 West 8th
 name: Salon Pearl
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 846 Massachusetts
 name: Third Planet
 neighborhood: Downtown
