@@ -48,10 +48,10 @@ def sync_downtownlawrence():
                     facebook_url = [item.get('href') for item in row.find_all(href=re.compile("facebook"))][0]
                     print(facebook_url)
                 except IndexError:
-                    facebook_url = None
+                    facebook_url = ""
 
                 url = row.find("a")
-                url = url.get("href") if url else None
+                url = url.get("href") if url else ""
                 if url:
                     if url.startswith("http"):
                         if url.startswith("http://"):
@@ -60,7 +60,7 @@ def sync_downtownlawrence():
                         url = f"https://{url}"
 
                     if "facebook.com" in url:
-                        url = None
+                        url = ""
 
                     typer.echo(url)
 
