@@ -1,13 +1,12 @@
-import click
 import frontmatter
 import os
 import re
 import requests
 import sys
+import typer
 import yaml
 
 from bs4 import BeautifulSoup
-from click_default_group import DefaultGroup
 from pathlib import Path
 from slugify import slugify
 from typesystem.fields import Boolean
@@ -136,6 +135,9 @@ FOOD_SERVICE_URLS = [
 ]
 
 
+app = typer.Typer()
+
+
 def load_aliases():
     if Path("_data", "aliases.yml").exists():
         input_file = Path("_data", "aliases.yml").read_text()
@@ -175,7 +177,7 @@ def verify_http(value):
 
 
 def print_expected_env_variables():
-    click.echo(
+    typer.echo(
         """
 To use this command, you will need to setup a Google Cloud Project and have
 authentication properly setup. To start, check out:
@@ -192,19 +194,14 @@ These are the values that you need to configure for the script to run:
 
     for var in EXPECTED_ENV_VARS:
         if var not in os.environ or not os.environ.get(var):
-            click.echo(f"- {var}")
+            typer.echo(f"- {var}")
 
-    click.echo("")
-
-
-@click.group(cls=DefaultGroup, default="sync-downtownlawrence", default_if_no_args=True)
-def cli():
-    pass
+    typer.echo("")
 
 
-@cli.command()
+@app.command()
 def sync_downtownlawrence():
-    click.echo("sync-downtownlawrence")
+    typer.echo("sync-downtownlawrence")
 
     if not Path("_places").exists():
         Path("_places").mkdir()
@@ -219,7 +216,7 @@ def sync_downtownlawrence():
 
     table = soup.find("div", "entry-content")
     rows = table.find_all("p")
-    click.secho(f"Businesses found: {len(rows)}", fg="yellow")
+    typer.secho(f"Businesses found: {len(rows)}", fg="yellow")
 
     for row in rows[3:]:
         if len(row.text.strip()):
@@ -232,7 +229,7 @@ def sync_downtownlawrence():
                 # name, address, services = row.find_all("td")
                 place_slug = slugify(name)
 
-                click.secho(f"{name} [{place_slug}]", fg="green")
+                typer.secho(f"{name} [{place_slug}]", fg="green")
 
                 try:
                     facebook_url = [item.get('href') for item in row.find_all(href=re.compile("facebook"))][0]
@@ -252,7 +249,7 @@ def sync_downtownlawrence():
                     if "facebook.com" in url:
                         url = None
 
-                    click.echo(url)
+                    typer.echo(url)
 
                 filename = Path("_places").joinpath(f"{place_slug}.md")
                 if filename.exists():
@@ -276,9 +273,9 @@ def sync_downtownlawrence():
                 print("")
 
             except (IndexError, ValueError) as e:
-                click.secho(e, fg="red")
+                typer.secho(e, fg="red")
                 print(row)
 
 
 if __name__ == "__main__":
-    cli()
+    app()
