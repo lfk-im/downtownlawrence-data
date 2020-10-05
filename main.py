@@ -13,11 +13,19 @@ app = typer.Typer()
 
 
 @app.command()
-def sync_downtownlawrence():
-    typer.echo("sync-downtownlawrence")
-
+def sync_downtownlawrence(mark_inactive: bool = False):
     if not Path("_places").exists():
         Path("_places").mkdir()
+
+    if mark_inactive:
+        filenames = Path("_places").glob("*.md")
+        for filename in filenames:
+            post = frontmatter.loads(filename.read_text())
+            post["active"] = False
+
+            filename.write_text(
+                frontmatter.dumps(post)
+            )
 
     response = requests.get(
         "https://www.downtownlawrence.com/explore-downtown-lawrence/dining/"
