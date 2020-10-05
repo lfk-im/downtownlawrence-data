@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 804 Massachusetts
 name: Sunflower Outdoor & Bike Shop
 neighborhood: Downtown

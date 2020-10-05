@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 300 West 9th
 name: Central Bank of the Midwest
 neighborhood: Downtown

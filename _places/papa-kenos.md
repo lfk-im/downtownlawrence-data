@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1035 Massachusetts
 name: Papa Keno’s 
 neighborhood: Downtown

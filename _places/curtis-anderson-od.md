@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 932 Massachusetts
 name: Curtis Anderson, OD
 neighborhood: Downtown

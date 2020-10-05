@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1111 Massachusetts
 name: Mana Bar
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1013 Massachusetts
 name: Urban Outfitters
 neighborhood: Downtown

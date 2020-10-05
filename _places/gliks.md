@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 717 Massachusetts
 name: Glik’s
 neighborhood: Downtown

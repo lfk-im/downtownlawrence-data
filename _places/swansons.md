@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 700 Massachusetts
 name: Swanson’s
 neighborhood: Downtown

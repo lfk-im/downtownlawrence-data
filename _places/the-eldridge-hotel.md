@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 701 Massachusetts
 name: The Eldridge Hotel
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 239 Elm
 name: The Levee Café
 neighborhood: Downtown

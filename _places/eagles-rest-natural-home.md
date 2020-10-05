@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 815 Massachusetts
 name: Eagle’s Rest Natural Home
 neighborhood: Downtown

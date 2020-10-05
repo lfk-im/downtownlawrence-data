@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1047 Massachusetts
 name: Watkins Museum of History
 neighborhood: Downtown

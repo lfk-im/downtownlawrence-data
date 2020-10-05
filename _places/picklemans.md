@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 818 Massachusetts
 name: Pickleman’s 
 neighborhood: Downtown

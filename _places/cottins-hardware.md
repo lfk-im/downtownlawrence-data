@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1832 Massachusetts
 name: Cottin’s Hardware
 neighborhood: Downtown

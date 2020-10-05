@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 10 East 9th
 name: BodyTruth Soap Apothecary
 neighborhood: Downtown

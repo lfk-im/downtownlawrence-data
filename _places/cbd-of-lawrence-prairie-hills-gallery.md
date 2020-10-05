@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 843 Massachusetts
 name: CBD of Lawrence/Prairie Hills Gallery
 neighborhood: Downtown

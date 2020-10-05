@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 644 Massachusetts
 name: Liberty Hall Theater
 neighborhood: Downtown

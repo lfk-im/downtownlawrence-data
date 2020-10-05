@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 807 Vermont
 name: Great Harvest
 neighborhood: Downtown

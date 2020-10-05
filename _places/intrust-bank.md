@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 901 Vermont
 name: Intrust Bank
 neighborhood: Downtown

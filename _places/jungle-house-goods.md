@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 924 Delaware
 name: Jungle House Goods
 neighborhood: Downtown

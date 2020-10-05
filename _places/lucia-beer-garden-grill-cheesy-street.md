@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1016 Massachusetts
 name: Lucia Beer Garden + Grill/ Cheesy Street
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 833 Massachusetts
 name: Kizer-Cummings Jewelry
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1234 Kentucky
 name: Saint John the Evangelist Catholic Church
 neighborhood: Downtown

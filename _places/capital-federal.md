@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 740 New Hampshire
 name: Capital Federal
 neighborhood: Downtown

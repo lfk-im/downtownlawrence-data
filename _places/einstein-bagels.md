@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1026 Massachusetts
 name: Einstein Bagels
 neighborhood: Downtown

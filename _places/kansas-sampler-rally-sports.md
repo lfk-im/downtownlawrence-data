@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 921 Massachusetts
 name: Kansas Sampler/Rally Sports
 neighborhood: Downtown

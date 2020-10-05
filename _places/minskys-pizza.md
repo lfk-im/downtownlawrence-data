@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 934 Massachusetts
 name: Minsky’s Pizza
 neighborhood: Downtown

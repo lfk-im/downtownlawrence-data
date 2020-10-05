@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 907 Massachusetts
 name: The Mad Greek 
 neighborhood: Downtown

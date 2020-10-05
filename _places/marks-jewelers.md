@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 817 Massachusetts
 name: Mark’s Jewelers
 neighborhood: Downtown

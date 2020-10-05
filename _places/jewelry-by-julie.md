@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 17 West 9th
 name: Jewelry by Julie
 neighborhood: Downtown

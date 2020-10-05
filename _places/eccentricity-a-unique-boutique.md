@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 716 Massachusetts
 name: 'Eccentricity: A Unique Boutique'
 neighborhood: Downtown

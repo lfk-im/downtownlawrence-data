@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 819 Massachusetts
 name: Framewoods Gallery
 neighborhood: Downtown

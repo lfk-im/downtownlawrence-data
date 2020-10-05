@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 731 Massachusetts
 name: J. Lynn Bridal
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 942 Massachusetts
 name: Wild Territory
 neighborhood: Downtown

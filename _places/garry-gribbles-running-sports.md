@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 839 Massachusetts
 name: Garry Gribble’s Running Sports
 neighborhood: Downtown

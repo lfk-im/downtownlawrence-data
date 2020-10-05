@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 940 New Hampshire
 name: Lawrence Arts Center
 neighborhood: Downtown

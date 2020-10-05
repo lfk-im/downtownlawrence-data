@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 829 Massachusetts
 name: Brown’s Shoe Fit
 neighborhood: Downtown

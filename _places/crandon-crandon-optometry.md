@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 1019 Massachusetts
 name: Crandon & Crandon Optometry
 neighborhood: Downtown

@@ -1,5 +1,5 @@
 ---
-active: true
+active: false
 address: 841 Massachusetts
 name: Wonderfair
 neighborhood: Downtown
