@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Torched Goodness
 neighborhood: Downtown
 sitemap: false

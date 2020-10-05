@@ -5,5 +5,5 @@ name: Fuzzy’s Taco Shop
 neighborhood: Downtown
 sitemap: false
 slug: fuzzys-taco-shop
-url: null
+url: ''
 ---

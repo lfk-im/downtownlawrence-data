@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Curbside beer to go
 sitemap: false
 slug: red-lyon-tavern
-url: null
+url: ''
 ---

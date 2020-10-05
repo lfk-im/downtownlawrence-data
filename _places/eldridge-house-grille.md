@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Eldridge House Grille
 neighborhood: Downtown
 sitemap: false

@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Wa Japanese Restaurant and Sushi
 neighborhood: Downtown
 sitemap: false

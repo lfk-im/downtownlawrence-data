@@ -5,5 +5,5 @@ name: Quinton’s Bar and Deli
 neighborhood: Downtown
 sitemap: false
 slug: quintons-bar-and-deli
-url: null
+url: ''
 ---

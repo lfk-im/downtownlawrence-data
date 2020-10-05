@@ -1,7 +1,7 @@
 ---
 active: true
 address: '935 Iowa #7'
-facebook_url: null
+facebook_url: ''
 name: Leeway Franks
 neighborhood: Downtown
 notes: Pick up and Delivery, Gift Cards available online

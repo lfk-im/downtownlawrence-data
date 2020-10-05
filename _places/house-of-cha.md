@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Closed
 sitemap: false
 slug: house-of-cha
-url: null
+url: ''
 ---

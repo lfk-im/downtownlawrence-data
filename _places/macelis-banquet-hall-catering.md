@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Maceli’s Banquet Hall & Catering
 neighborhood: Downtown
 sitemap: false

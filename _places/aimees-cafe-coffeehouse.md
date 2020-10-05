@@ -7,5 +7,5 @@ neighborhood: Downtown
 notes: Call ahead for curbside pickup Friday-Sunday
 sitemap: false
 slug: aimees-cafe-coffeehouse
-url: null
+url: ''
 ---

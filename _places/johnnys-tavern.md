@@ -1,6 +1,6 @@
 ---
 active: true
-facebook_url: null
+facebook_url: ''
 name: Johnny’s Tavern
 neighborhood: Downtown
 sitemap: false
